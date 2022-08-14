@@ -5,12 +5,12 @@
 5. city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
 
 
-1.
+1. SELECT DISTINCT(replacement_cost) FROM film;
 
-2.
+2. SELECT COUNT (DISTINCT(replacement_cost)) FROM film;
 
-3.
+3. SELECT COUNT(title)FROM film WHERE title LIKE 'T%' AND rating = 'G';
 
-4.
+4. SELECT COUNT (country) FROM country WHERE country LIKE '_____';
 
-5.
+5.  SELECT COUNT (*) FROM city WHERE city ILIKE '%R';
